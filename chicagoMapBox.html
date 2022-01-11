@@ -30,7 +30,12 @@
         style: 'mapbox://styles/mapbox/streets-v11',
         center: [-87.629799,41.878113],
         zoom: 10
-    })
+    });
+
+    var marker = new mapboxgl.Marker()
+        .setLngLat([-87.660070,41.925250])
+        .addTo(map);
+        
 </script>
 </body>
 </html>
